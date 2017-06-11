@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="게임규칙"
+        android:textSize="35dp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="100dp"
+        android:layout_height="match_parent" />
+        <TextView
+    android:layout_width="300dp"
+    android:layout_height="80dp"
+    android:textSize="29dp"
+    android:text="교수님이 F학점을 뿌리십니다" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+        <ImageView
+            android:src="@drawable/fletter"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="손가락을 잘 움직여서 F학점을 피해보세요!"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="125dp">
+       <ImageView
+           android:src="@drawable/professor"
+           android:layout_width="100dp"
+           android:layout_height="match_parent" />
+       <TextView
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="F를 맞으면 학기를 재수강을 해야하니 조심하세요"/>
+   </LinearLayout>
+</LinearLayout>

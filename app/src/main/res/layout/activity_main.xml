@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tae_woong.avoidf.ButtonSelActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@color/colorPrimary"
+        tools:layout_editor_absoluteX="8dp">
+    <ImageView
+        android:layout_marginLeft="100dp"
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/images" />
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <Button
+            android:drawableLeft="@drawable/ic_motorcycle_black_24dp"
+            android:drawableStart="@drawable/ic_motorcycle_black_24dp"
+            android:text="Play!"
+            android:id="@+id/play"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp" />
+        <Button
+            android:text="Rule"
+            android:drawableLeft="@drawable/ic_library_books_black_24dp"
+            android:drawableStart="@drawable/ic_library_books_black_24dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/rule"
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_gravity="center"/>
+        <Button
+            android:drawableLeft="@drawable/ic_credit_card_black_24dp"
+            android:drawableStart="@drawable/ic_credit_card_black_24dp"
+            android:text="Credit"
+            android:layout_marginTop="5dp"
+            android:id="@+id/ranking"
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_gravity="center"/>
+        <Button
+            android:drawableLeft="@drawable/ic_accessibility_black_24dp"
+            android:drawableStart="@drawable/ic_accessibility_black_24dp"
+            android:text="Ranking"
+            android:layout_marginTop="5dp"
+            android:id="@+id/credit"
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_gravity="center"/>
+        </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
