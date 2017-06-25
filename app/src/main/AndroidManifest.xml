@@ -16,9 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GameActivity">
-        </activity>
-        <activity android:name=".RuleActivity"></activity>
-    </application>
+        <activity android:name=".GameActivity"></activity>
 
+        <activity android:name=".RuleActivity"></activity>
+
+        <activity android:name=".CreditActivity"></activity>
+    </application>
 </manifest>

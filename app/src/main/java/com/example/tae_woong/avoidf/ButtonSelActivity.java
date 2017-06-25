@@ -37,14 +37,6 @@ public class ButtonSelActivity extends AppCompatActivity {
                 ButtonSelActivity.this.startActivity(creditIntent);
             }
         });
-        Button rankingButton=(Button)findViewById(R.id.ranking);
-        rankingButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent rankingIntent = new Intent(ButtonSelActivity.this, RankingActivity.class);
-                ButtonSelActivity.this.startActivity(rankingIntent);
-            }
-        });
         mp=MediaPlayer.create(this,R.raw.beat);
         mp.setLooping(true);
         mp.start();
