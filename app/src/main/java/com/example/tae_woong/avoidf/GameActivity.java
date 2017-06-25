@@ -19,7 +19,7 @@ public class GameActivity extends AppCompatActivity {
         setContentView(R.layout.activity_play);
         timer=(Chronometer)findViewById(R.id.chronometer);
         startGame();
-    }
+    }//게임 화면 시작
     public void onDestroy(){
         super.onDestroy();
         timer.stop();
@@ -34,7 +34,7 @@ public class GameActivity extends AppCompatActivity {
                     case MotionEvent.ACTION_DOWN :
                     case MotionEvent.ACTION_MOVE :
                     case MotionEvent.ACTION_UP   :
-                        // 이미지 뷰의 위치를 옮기기
+                        // 이미지 뷰의 위치를 마우스 가는곳으로 옮기기
                         iv.setX(event.getX());
                         iv.setY(event.getY());
                 }
