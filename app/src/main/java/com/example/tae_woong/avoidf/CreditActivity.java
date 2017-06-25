@@ -28,5 +28,5 @@ public class CreditActivity extends AppCompatActivity {
             }
         };
         youtubeview.initialize("AIzaSyChoYIwWWrT1y42x0YhX2NhSNkelJpmop0",listener);
-    }
+    }//만든사람과 만든 툴이 무엇인지 유투브 api를 연동하여 사용.
 }
