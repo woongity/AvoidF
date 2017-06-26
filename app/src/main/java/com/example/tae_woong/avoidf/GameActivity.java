@@ -100,9 +100,8 @@ public class GameActivity extends AppCompatActivity {
             passTime.getBase();
             timer.cancel();
             timer=null;
-
-            Intent resultIntent = new Intent(GameActivity.this,ResultActivity.class);
-            GameActivity.this.startActivity(resultIntent);
+            Intent resultIntent = new Intent(this, ResultActivity.class);
+            startActivity(resultIntent);
         }
     }
     public boolean onTouchEvent(MotionEvent me){
